@@ -1,0 +1,31 @@
+VFR DIRECT WEBSITE UPLOAD INSTRUCTIONS
+
+IMPORTANT: Do not delete CNAME. It keeps vfr-direct.com connected to GitHub Pages.
+
+1. Download and unzip this package on your Mac.
+2. Open the folder named vfr-direct-rebuild-final.
+3. In GitHub, open your vfr-direct repository.
+4. Click Add file > Upload files.
+5. Drag these items into the upload area:
+   - index.html
+   - style.css
+   - script.js
+   - CNAME
+   - the entire assets folder
+6. GitHub will replace index.html and style.css and add the new files.
+7. Enter commit message: Complete VFR Direct website rebuild
+8. Choose Commit directly to the main branch.
+9. Click Commit changes.
+10. Wait 2-5 minutes, then open https://vfr-direct.com/ and press Command + Shift + R.
+
+EXPECTED REPOSITORY STRUCTURE:
+CNAME
+index.html
+style.css
+script.js
+assets/
+  airfield-banner.png
+  joel-cortes.png
+  vfr-direct-logo.jpg
+
+You do not need to delete the existing files first. Uploading files with the same names will replace them. After confirming the new site works, you may delete old unused image files.
